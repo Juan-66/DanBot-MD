@@ -139,26 +139,26 @@ if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) 
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
 opcion = await question(`╭${lineM}  
-┊ ${chalk.orangeBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.orangeBright('┊')} ${chalk.blue.bgBlue.bold.cyan(mid.methodCode1)}
-┊ ${chalk.orangeBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}   
-┊ ${chalk.orangeBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.orangeBright('┊')} ${chalk.pink.bgblueBright.bold.red(mid.methodCode2)}
-┊ ${chalk.orangeBright('┊')} ${chalk.bold.cyanBright(`⇢  ${mid.methodCode3} 1:`)} ${chalk.greenBright(mid.methodCode4)}
-┊ ${chalk.orangeBright('┊')} ${chalk.bold.cyanBright(`⇢  ${mid.methodCode3} 2:`)} ${chalk.greenBright(mid.methodCode5)}
-┊ ${chalk.orangeBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.orangeBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.orangeBright('┊')} ${chalk.italic.redBright(mid.methodCode6)}
-┊ ${chalk.orangeBright('┊')} ${chalk.italic.redBright(mid.methodCode7)}
-┊ ${chalk.orangeBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊ ${chalk.orangeBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}    
-┊ ${chalk.orangeBright('┊')} ${chalk.red.bgRed.bold.blue(mid.methodCode8)}
-┊ ${chalk.orangeBright('┊')} ${chalk.italic.cyan(mid.methodCode9)}
-┊ ${chalk.orangeBright('┊')} ${chalk.italic.cyan(mid.methodCode10)}
-┊ ${chalk.orangeBright('┊')} ${chalk.bold.yellow(`npm run qr ${chalk.italic.magenta(`(${mid.methodCode12})`)}`)}
-┊ ${chalk.orangeBright('┊')} ${chalk.bold.yellow(`npm run code ${chalk.italic.magenta(`(${mid.methodCode13})`)}`)}
-┊ ${chalk.orangeBright('┊')} ${chalk.bold.yellow(`npm start ${chalk.italic.magenta(`(${mid.methodCode14})`)}`)}
-┊ ${chalk.orangeBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
+┊ ${chalk.hex("#ef6131")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.blue.bgBlue.bold.cyan(mid.methodCode1)}
+┊ ${chalk.hex("#ef6131")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}   
+┊ ${chalk.hex("#ef6131")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.pink.bgblueBright.bold.red(mid.methodCode2)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.bold.cyanBright(`⇢  ${mid.methodCode3} 1:`)} ${chalk.greenBright(mid.methodCode4)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.bold.cyanBright(`⇢  ${mid.methodCode3} 2:`)} ${chalk.greenBright(mid.methodCode5)}
+┊ ${chalk.hex("#ef6131")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
+┊ ${chalk.hex("#ef6131")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.italic.redBright(mid.methodCode6)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.italic.redBright(mid.methodCode7)}
+┊ ${chalk.hex("#ef6131")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
+┊ ${chalk.hex("#ef6131")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}    
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.red.bgRed.bold.blue(mid.methodCode8)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.italic.cyan(mid.methodCode9)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.italic.cyan(mid.methodCode10)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.bold.yellow(`npm run qr ${chalk.italic.magenta(`(${mid.methodCode12})`)}`)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.bold.yellow(`npm run code ${chalk.italic.magenta(`(${mid.methodCode13})`)}`)}
+┊ ${chalk.hex("#ef6131")('┊')} ${chalk.bold.yellow(`npm start ${chalk.italic.magenta(`(${mid.methodCode14})`)}`)}
+┊ ${chalk.hex("#ef6131")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
 if (!/^[1-2]$/.test(opcion)) {
 console.log(chalk.bold.redBright(mid.methodCode11(chalk)))

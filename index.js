@@ -79,9 +79,9 @@ const currentTime = new Date().toLocaleString()
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
 console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.hex("#e9653e")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`)}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`)}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`)}
 ┊${chalk.hex("#e9653e")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.hex("#e9653e")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.hex("#e9653e")('┊')} ${chalk.blue.bold(`🟢INFORMACIÓN :`)}
@@ -91,10 +91,10 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.hex("#e9653e")('┊')}${chalk.cyan(`💜 Descripción: ${packageJsonObj.description}`)}
 ┊${chalk.hex("#e9653e")('┊')}${chalk.cyan(`🐲 Project Author: ${packageJsonObj.author.name} (@gata_dios)`)}
 ┊${chalk.hex("#e9653e")('┊')}${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`💜 Colaboradores:`)}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`• GataNina-Li (Gata Dios)`)}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`• elrebelde21 (Mario ofc)`)}
-┊${chalk.hex("#e9653e")('┊')}${chalk.orange(`• KatashiFukushima (Katashi)`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`💜 Colaboradores:`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`• GataNina-Li (Gata Dios)`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`• elrebelde21 (Mario ofc)`)}
+┊${chalk.hex("#e9653e")('┊')}${chalk.hex("#ef6131")(`• KatashiFukushima (Katashi)`)}
 ┊${chalk.hex("#e9653e")('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.hex("#e9653e")('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.hex("#e9653e")('┊')}${chalk.cyan(`⏰ Hora Actual :`)}
