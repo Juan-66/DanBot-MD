@@ -98,8 +98,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       song.imagen,
       [['no usar (crash en reparacion)']],
       [[`${usedPrefix}getmp3from ${song.name} - ${song.artista}`]],
-      [['Enlace a Spotify', song.url]],
-      [[`Más canciones`, carouselSections]]
+      [['Enlace a Spotify', song.url], ['Spotify Premium APK', ("https://spotifypremium.net/file/spotify-premium-mod-apk-8-10-9-722.apk")]]
     ]);
 
     await conn.sendCarousel(m.chat, 'Aquí tienes las canciones encontradas:', 'Script by: Juan-66', 'Cancion Encontrada:', messages, m);
