@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 import fetch from 'node-fetch'  
 import fs from 'fs'
@@ -76,7 +76,7 @@ let mensajeConfirmacion = `> *Esto pasará si transfieres "${senderData.fantasy[
 id_message = (await conn.reply(m.chat, mensajeConfirmacion, m, { mentions: [user] })).key.id
 }
 
-const jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+const jsonURL = 'https://raw.githubusercontent.com/Juan-66/module/main/imagen_json/anime.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 const imageInfo = data.infoImg.find(img => img.name.toLowerCase() === character.toLowerCase() || img.code === character)

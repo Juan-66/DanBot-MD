@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 import { listaAvisos } from '../plugins/rpg-fantasy_start.js'
 import fetch from 'node-fetch'
@@ -34,7 +34,7 @@ who = m.sender
 const userId = who
 let user = global.db.data.users[userId]
 
-const jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+const jsonURL = 'https://raw.githubusercontent.com/Juan-66/module/main/imagen_json/anime.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 

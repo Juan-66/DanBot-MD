@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 import fetch from 'node-fetch'
 let numPersonaje = 10
@@ -6,7 +6,7 @@ let currentPage = null
 const fantasyDBPath = './fantasy.json'
 
 let handler = async (m, { command, usedPrefix, conn, text }) => {
-const jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+const jsonURL = 'https://raw.githubusercontent.com/Juan-66/module/main/imagen_json/anime.json'
 const response = await fetch(jsonURL)
 const data = await response.json()
 

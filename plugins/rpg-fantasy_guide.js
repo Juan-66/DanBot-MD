@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 let handler = async (m, { command, usedPrefix, conn, text }) => {
 let fantasy = `

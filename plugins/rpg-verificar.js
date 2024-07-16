@@ -1,4 +1,4 @@
-// CÓDIGO CREADO POR GataNina-Li : https://github.com/GataNina-Li 
+// CÓDIGO CREADO POR Juan-66 : https://github.com/Juan-66 
 import { createHash } from 'crypto'
 let nombre = 0, edad = 0, genero = 0, bio = 0, identidad = 0, pasatiempo = 0, registro, _registro, fecha, hora, tiempo, registrando
 let pas1 = 0, pas2 = 0, pas3 = 0, pas4 = 0, pas5 = 0  

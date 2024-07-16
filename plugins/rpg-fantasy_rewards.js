@@ -1,4 +1,4 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 const fantasyDBPath = './fantasy.json'
 let usuarioExistente, logro, fake = null

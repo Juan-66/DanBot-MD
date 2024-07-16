@@ -1,4 +1,4 @@
-// Botones interactivos adptados y funcionando por Gata Dios (GataNina-Li)
+// Botones interactivos adptados y funcionando por Gata Dios (Juan-66)
 
 import { getDevice } from '@whiskeysockets/baileys'
 import fs from 'fs'

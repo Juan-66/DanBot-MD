@@ -78,7 +78,7 @@ function connect(conn, PORT) {
   });
 
   app.get('*', async (req, res) => {
-    res.json("GATABOT-MD en ejecución");
+    res.json("DanBot-MD en ejecución");
   });
 
   server.listen(PORT, async () => {

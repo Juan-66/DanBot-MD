@@ -24,7 +24,7 @@ conn.sendButton(m.chat, texto.trim(), wm, img, [
   
 if (command == 'frase2' || command == 'phrase2') { 
 let img = 'https://superpet.pe/blog/wp-content/uploads/2022/05/nombres-para-gatos-blancos.jpg'  
-let list = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/frase2.json`)).data  
+let list = (await axios.get(`https://raw.githubusercontent.com/Juan-66/DanBot-MD/master/src/JSON/frase2.json`)).data  
 let contenido = await list[Math.floor(list.length * Math.random())]
 let frase = contenido.motivasi
 let frase2 = await translate(`${frase}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })

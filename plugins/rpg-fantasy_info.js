@@ -1,10 +1,10 @@
-// Código elaborado por: https://github.com/GataNina-Li
+// Código elaborado por: https://github.com/Juan-66
 
 import fetch from 'node-fetch'
 import fs from 'fs'
 
 const fantasyDBPath = './fantasy.json'
-const jsonURL = 'https://raw.githubusercontent.com/GataNina-Li/module/main/imagen_json/anime.json'
+const jsonURL = 'https://raw.githubusercontent.com/Juan-66/module/main/imagen_json/anime.json'
 
 let handler = async (m, { command, usedPrefix, text, conn }) => {
 let user = global.db.data.users[m.sender]

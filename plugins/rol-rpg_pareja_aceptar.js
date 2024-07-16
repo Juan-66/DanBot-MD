@@ -62,7 +62,7 @@ return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb
     title: 'Pareja - aceptar ',
     body: global.gt,
     thumbnailUrl: "https://telegra.ph/file/bb6768e019760933dadc7.jpg",
-    sourceUrl: 'https://github.com/GataNina-Li/GataBot-MD',
+    sourceUrl: 'https://github.com/Juan-66/DanBot-MD',
     mediaType: 1,
     renderLargerThumbnail: false,
   },
